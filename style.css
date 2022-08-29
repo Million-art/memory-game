@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h3{
+    width: 350px;
+    border: 1px solid black;
+}
+#grid, h3 {
+    margin-left: 500px;
+    margin-top: 50px;
+ }
+#grid{
+     width: 40px;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+flex-wrap: wrap;
+    height: 300px;
+    width: 200px;
+}
+#grid .img{
+    width: 100px;
+    height: 80px;  
+}
